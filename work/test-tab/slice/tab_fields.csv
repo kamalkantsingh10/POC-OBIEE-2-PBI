@@ -1,0 +1,30 @@
+"row_id","item_id","kind","fsd_anchor","fsd_text","status","row_ids","notes"
+"item::S1-own-offices","S1-own-offices","filter","p6","Each manager should see only their own offices; the Head of Sales sees everything.","rejected","","TEST DECISION by the lead build agent, not by Kamal: the manager-to-office link is unknown (Q2)"
+"item::F1","F1","filter","t1.r2.c2 t1.r2.c3","Year: Calendar year of the order","confirmed","sampleapp::pres::Sample Sales.Dim Time.Per Name Year","TEST DECISION by the lead build agent, not by Kamal: kept for the test although the review showed revenue joins on the bill date"
+"item::F2","F2","filter","t1.r3.c2 t1.r3.c3","Office: The sales office","confirmed","sampleapp::pres::Sample Sales.Dim Offices.Office Dsc","TEST DECISION by the lead build agent, not by Kamal"
+"item::F3","F3","filter","t1.r4.c2 t1.r4.c3","Product brand: Brand of the product sold","confirmed","sampleapp::pres::Sample Sales.Dim Products.Brand","TEST DECISION by the lead build agent, not by Kamal"
+"item::F4","F4","filter","t1.r5.c2 t1.r5.c3","Region: Sales region the office belongs to","unmatched","",""
+"item::K1","K1","calculation","t2.r2.c2 t2.r2.c3","Net revenue: Revenue after discounts, for the filtered period","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Revenue
+sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value","TEST DECISION by the lead build agent, not by Kamal"
+"item::K2","K2","measure","t2.r3.c2 t2.r3.c3","Units sold: Number of units sold","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Units","TEST DECISION by the lead build agent, not by Kamal"
+"item::K3","K3","calculation","t2.r4.c2 t2.r4.c3","Revenue vs target: Net revenue as a percentage of the revenue target for the same period","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Revenue
+sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value
+sampleapp::pres::Sample Sales.Fact Target.Revenue","TEST DECISION by the lead build agent, not by Kamal"
+"item::K4","K4","calculation","t2.r5.c2 t2.r5.c3","Average selling price: Net revenue divided by units sold","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Revenue
+sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value
+sampleapp::pres::Sample Sales.Fact Revenue.Units","TEST DECISION by the lead build agent, not by Kamal"
+"item::K5","K5","measure","t2.r6.c2 t2.r6.c3","Active customers: Number of distinct customers who placed at least one order in the period","unmatched","",""
+"item::V1-month","V1-month","attribute","p10","month of the year","confirmed","sampleapp::pres::Sample Sales.Dim Time.Per Name Month","TEST DECISION by the lead build agent, not by Kamal"
+"item::V1-net-revenue","V1-net-revenue","calculation","p10","net revenue","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Revenue
+sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value","TEST DECISION by the lead build agent, not by Kamal"
+"item::V1-target","V1-target","measure","p10","revenue target","confirmed","sampleapp::pres::Sample Sales.Fact Target.Revenue","TEST DECISION by the lead build agent, not by Kamal"
+"item::V2-product","V2-product","attribute","p11","product","confirmed","sampleapp::pres::Sample Sales.Dim Products.Prod Dsc","TEST DECISION by the lead build agent, not by Kamal"
+"item::V2-office","V2-office","attribute","p11","office","confirmed","sampleapp::pres::Sample Sales.Dim Offices.Office Dsc","TEST DECISION by the lead build agent, not by Kamal"
+"item::V2-net-revenue","V2-net-revenue","calculation","p11","net revenue","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Revenue
+sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value","TEST DECISION by the lead build agent, not by Kamal"
+"item::V2-units","V2-units","measure","p11","units sold","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Units","TEST DECISION by the lead build agent, not by Kamal"
+"item::V2-discount","V2-discount","measure","p11","discount amount","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value","TEST DECISION by the lead build agent, not by Kamal"
+"item::V3-rep","V3-rep","attribute","p12","sales representatives","confirmed","sampleapp::pres::Sample Sales.Dim Sales Rep.Employee Name","TEST DECISION by the lead build agent, not by Kamal"
+"item::V3-net-revenue","V3-net-revenue","calculation","p12","highest net revenue","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Revenue
+sampleapp::pres::Sample Sales.Fact Revenue.Discnt Value","TEST DECISION by the lead build agent, not by Kamal"
+"item::N1-currency","N1-currency","attribute","p14","Amounts are shown in the user's preferred currency where the source supports it.","confirmed","sampleapp::pres::Sample Sales.Fact Revenue.Preferred Currency","TEST DECISION by the lead build agent, not by Kamal"

@@ -1,0 +1,2 @@
+"row_id","rpd_id","name","refresh_period","is_session","is_enabled","init_string"
+"sampleapp::var::init.initBlockPrefCurrency","sampleapp","initBlockPrefCurrency","","true","","select 'VALUEOF(NQ_SESSION.PREFERED_CURRENCY)' from dual"

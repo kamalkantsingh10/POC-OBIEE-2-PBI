@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="lpta" name="F_AGG" type="Table" xmlns="http://www.oracle.com/obis/repository" containerRef="/oracle/bi/server/base/Schema/sch.xml#lsch">
+<PhysicalColumn mdsid="lpa1" name="AMOUNT" dataType="DOUBLE"/>
+</PhysicalTable>

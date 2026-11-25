@@ -1,0 +1,5 @@
+"row_id","rpd_id","name","business_model","is_value_based","is_ragged","is_skipped","default_root_level_id","level_count","is_time"
+"sampleapp::bmm::SAMPLESALES.Office Hierarchy","sampleapp","Office Hierarchy","SAMPLESALES","false","false","false","sampleapp::bmm::SAMPLESALES.Office Hierarchy.Dim Offices Total","5",""
+"sampleapp::bmm::SAMPLESALES.Products Hierararchy","sampleapp","Products Hierararchy","SAMPLESALES","false","false","false","sampleapp::bmm::SAMPLESALES.Products Hierararchy.Dim Products Total","5",""
+"sampleapp::bmm::SAMPLESALES.Sales Rep Hierarchy","sampleapp","Sales Rep Hierarchy","SAMPLESALES","true","false","false","sampleapp::bmm::SAMPLESALES.Sales Rep Hierarchy.Total","2",""
+"sampleapp::bmm::SAMPLESALES.Time Hierarchy","sampleapp","Time Hierarchy","SAMPLESALES","false","false","false","sampleapp::bmm::SAMPLESALES.Time Hierarchy.Dim Time Total","7","true"

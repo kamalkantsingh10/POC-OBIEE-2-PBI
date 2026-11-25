@@ -1,0 +1,66 @@
+unit_id,status,last_question,note
+_run,start,0,"2026-11-24T02:56:24Z | 27 rows (26 confirmed, 1 rejected); items: 18 confirmed, 1 rejected, 2 unmatched, 0 undecided"
+overview,written,0,
+tab-fields-p1,written,1,
+tab-fields-p2,written,1,
+table-01-fact-revenue-p1,written,2,
+table-01-fact-revenue-p2,written,5,
+table-02-fact-target,written,6,
+table-03-dim-offices,written,6,
+table-04-dim-products,written,6,
+table-05-dim-products-translated,written,6,
+table-06-dim-sales-rep,written,7,
+table-07-dim-time,written,9,
+dbtable-01-employee,written,9,
+dbtable-02-emp-parent-child,written,10,
+dbtable-03-factcrossjoin,written,11,
+dbtable-04-samp-offices-d,written,11,
+dbtable-05-samp-products-d,written,11,
+dbtable-06-samp-products-d-translation,written,11,
+dbtable-07-samp-revenue-a,written,12,
+dbtable-08-samp-revenue-a-mth,written,12,
+dbtable-09-samp-revenue-a-yr,written,12,
+dbtable-10-samp-revenue-f,written,12,
+dbtable-11-samp-targets-f,written,12,
+dbtable-12-samp-time-day-d,written,12,
+dbtable-13-samp-time-mth-d,written,13,
+joins,written,16,
+hierarchies,written,17,
+variables,written,17,
+security,written,18,
+reports,written,18,
+gaps,written,18,
+_document,assembled,18,
+overview,reviewed,18,0 findings
+tab-fields-p1,reviewed,18,2 findings
+tab-fields-p2,reviewed,18,1 findings
+table-01-fact-revenue-p1,reviewed,18,1 findings
+table-01-fact-revenue-p2,reviewed,18,0 findings
+table-02-fact-target,reviewed,18,0 findings
+table-03-dim-offices,reviewed,18,0 findings
+table-04-dim-products,reviewed,18,0 findings
+table-05-dim-products-translated,reviewed,18,0 findings
+table-06-dim-sales-rep,reviewed,18,1 findings
+table-07-dim-time,reviewed,18,0 findings
+dbtable-01-employee,reviewed,18,0 findings
+dbtable-02-emp-parent-child,reviewed,18,0 findings
+dbtable-03-factcrossjoin,reviewed,18,0 findings
+dbtable-04-samp-offices-d,reviewed,18,0 findings
+dbtable-05-samp-products-d,reviewed,18,0 findings
+dbtable-06-samp-products-d-translation,reviewed,18,0 findings
+dbtable-07-samp-revenue-a,reviewed,18,0 findings
+dbtable-08-samp-revenue-a-mth,reviewed,18,0 findings
+dbtable-09-samp-revenue-a-yr,reviewed,18,0 findings
+dbtable-10-samp-revenue-f,reviewed,18,0 findings
+dbtable-11-samp-targets-f,reviewed,18,0 findings
+dbtable-12-samp-time-day-d,reviewed,18,0 findings
+dbtable-13-samp-time-mth-d,reviewed,18,0 findings
+joins,reviewed,19,1 findings
+hierarchies,reviewed,19,1 findings
+variables,reviewed,19,0 findings
+security,reviewed,19,0 findings
+reports,reviewed,19,0 findings
+gaps,reviewed,19,1 findings
+_questions,reviewed,19,
+_summary,reviewed,19,
+_document,reviewed,19,2026-11-24

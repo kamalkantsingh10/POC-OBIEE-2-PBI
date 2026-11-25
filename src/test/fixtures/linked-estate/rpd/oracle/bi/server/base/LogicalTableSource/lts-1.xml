@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="llts1" name="A Detail" isActive="true" xmlns="http://www.oracle.com/obis/repository" logicalTableRef="/oracle/bi/server/base/LogicalTable/lt.xml#llt">
+<ColumnMapping mdsid="m1" name="ColumnMapping">
+<LogicalColumnExpr mdsid="lm1" name="LogicalColumnExpr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["Linked BM"."Fact"."Amount"]]></ExprTextDesc><ObjectRefList><RefObject refId="qm1" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc1"/></ObjectRefList></LogicalColumnExpr>
+<Expr mdsid="em1" name="Expr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["LK"."F_DETAIL"."AMOUNT"]]></ExprTextDesc><ObjectRefList><RefObject refId="pm1" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/pt-detail.xml#lpd1"/></ObjectRefList></Expr>
+</ColumnMapping>
+<ColumnMapping mdsid="m2" name="ColumnMapping">
+<LogicalColumnExpr mdsid="lm2" name="LogicalColumnExpr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["Linked BM"."Fact"."Quantity"]]></ExprTextDesc><ObjectRefList><RefObject refId="qm2" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc2"/></ObjectRefList></LogicalColumnExpr>
+<Expr mdsid="em2" name="Expr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["LK"."F_DETAIL"."QTY"]]></ExprTextDesc><ObjectRefList><RefObject refId="pm2" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/pt-detail.xml#lpd2"/></ObjectRefList></Expr>
+</ColumnMapping>
+<ColumnMapping mdsid="m3" name="ColumnMapping">
+<LogicalColumnExpr mdsid="lm3" name="LogicalColumnExpr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["Linked BM"."Fact"."Note"]]></ExprTextDesc><ObjectRefList><RefObject refId="qm3" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc4"/></ObjectRefList></LogicalColumnExpr>
+<Expr mdsid="em3" name="Expr"><ExprText><![CDATA['fixed text']]></ExprText><ExprTextDesc><![CDATA['fixed text']]></ExprTextDesc></Expr>
+</ColumnMapping>
+<ColumnMapping mdsid="m4" name="ColumnMapping">
+<LogicalColumnExpr mdsid="lm4" name="LogicalColumnExpr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["Linked BM"."Fact"."Region"]]></ExprTextDesc><ObjectRefList><RefObject refId="qm4" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc5"/></ObjectRefList></LogicalColumnExpr>
+<Expr mdsid="em4" name="Expr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["LK"."F_DETAIL"."REGION"]]></ExprTextDesc><ObjectRefList><RefObject refId="pm4" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/pt-detail.xml#lpd3"/></ObjectRefList></Expr>
+</ColumnMapping>
+<ColumnMapping mdsid="m5" name="ColumnMapping">
+<LogicalColumnExpr mdsid="lm5" name="LogicalColumnExpr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["Linked BM"."Fact"."Region Upper"]]></ExprTextDesc><ObjectRefList><RefObject refId="qm5" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc6"/></ObjectRefList></LogicalColumnExpr>
+<Expr mdsid="em5" name="Expr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["LK"."F_DETAIL"."REGION_UC"]]></ExprTextDesc><ObjectRefList><RefObject refId="pm5" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/pt-detail.xml#lpd4"/></ObjectRefList></Expr>
+</ColumnMapping>
+</LogicalTableSource>

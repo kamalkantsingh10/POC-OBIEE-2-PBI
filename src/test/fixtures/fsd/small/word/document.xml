@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <w:body>
+    <w:p><w:pPr><w:pStyle w:val="Title"/></w:pPr><w:r><w:t>Monthly Overview</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t xml:space="preserve">1. </w:t></w:r><w:r><w:rPr><w:b/></w:rPr><w:t>Pur</w:t></w:r><w:r><w:t>pose</w:t></w:r></w:p>
+    <w:p><w:r><w:t xml:space="preserve">The tab shows </w:t></w:r><w:r><w:rPr><w:b/></w:rPr><w:t>Net</w:t></w:r><w:r><w:rPr><w:b/></w:rPr><w:t xml:space="preserve"> rev</w:t></w:r><w:r><w:rPr><w:b/></w:rPr><w:t>enue </w:t></w:r><w:r><w:t>per month</w:t></w:r><w:r><w:rPr><w:b w:val="0"/></w:rPr><w:t xml:space="preserve"> and</w:t></w:r><w:del w:id="1" w:author="A"><w:r><w:delText> never</w:delText></w:r></w:del><w:ins w:id="2" w:author="A"><w:r><w:t xml:space="preserve"> units</w:t></w:r></w:ins><w:r><w:t>.</w:t></w:r></w:p>
+    <w:p/>
+    <w:p><w:pPr><w:pStyle w:val="Normal"/></w:pPr><w:r><w:t xml:space="preserve">   </w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>Filters</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r><w:t>Year,</w:t></w:r><w:r><w:t xml:space="preserve"> the calendar year</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r><w:t>defaults to the current year</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="ListBullet"/></w:pPr><w:r><w:t>Office</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t>see the</w:t></w:r><w:hyperlink r:id="rId3"><w:r><w:t xml:space="preserve"> glossary</w:t></w:r></w:hyperlink></w:p>
+    <w:p><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r><w:t>First step</w:t></w:r></w:p>
+    <w:p><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r><w:t>a detail</w:t></w:r></w:p>
+    <w:p><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r><w:t>Second step</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Kop3"/></w:pPr><w:r><w:t>Key figures</w:t></w:r></w:p>
+    <w:tbl>
+      <w:tblPr><w:tblStyle w:val="TableGrid"/></w:tblPr>
+      <w:tblGrid><w:gridCol w:w="1000"/><w:gridCol w:w="3000"/><w:gridCol w:w="4000"/></w:tblGrid>
+      <w:tr>
+        <w:tc><w:p><w:r><w:rPr><w:b/></w:rPr><w:t>#</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Figure</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Definition</w:t></w:r></w:p></w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc><w:tcPr><w:vMerge w:val="restart"/></w:tcPr><w:p><w:r><w:t>K1</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>Net revenue</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>Revenue after discounts | in euro</w:t></w:r></w:p><w:p><w:r><w:t>Monthly</w:t></w:r></w:p></w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc><w:tcPr><w:vMerge/></w:tcPr><w:p/></w:tc>
+        <w:tc><w:tcPr><w:gridSpan w:val="2"/></w:tcPr><w:p><w:r><w:t>Units sold, over both columns</w:t></w:r></w:p></w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc><w:p><w:r><w:t>K3</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p/></w:tc>
+        <w:tc><w:p><w:r><w:t>left empty on purpose</w:t></w:r></w:p></w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p><w:r><w:t>Targets may be revised.</w:t></w:r><w:r><w:br/></w:r><w:r><w:t>Ask the planning team.</w:t></w:r></w:p>
+    <w:sectPr><w:pgSz w:w="11906" w:h="16838"/></w:sectPr>
+  </w:body>
+</w:document>

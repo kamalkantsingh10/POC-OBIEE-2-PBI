@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="lpt" name="Facts" xmlns="http://www.oracle.com/obis/repository" containerRef="/oracle/bi/server/base/PresentationCatalog/sa.xml#lsa">
+<PresentationColumn mdsid="c1" name="Amount" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc1"/>
+<PresentationColumn mdsid="c2" name="Quantity" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc2"/>
+<PresentationColumn mdsid="c3" name="Margin" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc3"/>
+<PresentationColumn mdsid="c4" name="Note" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc4"/>
+<PresentationColumn mdsid="c5" name="Region" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc5"/>
+<PresentationColumn mdsid="c6" name="REGION" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc6"/>
+<PresentationColumn mdsid="c7" name="Unbound" overrideLogicalName="false"/>
+</PresentationTable>

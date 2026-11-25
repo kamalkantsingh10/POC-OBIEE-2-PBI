@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="llts2" name="B Aggregate" isActive="true" xmlns="http://www.oracle.com/obis/repository" logicalTableRef="/oracle/bi/server/base/LogicalTable/lt.xml#llt">
+<ColumnMapping mdsid="m6" name="ColumnMapping">
+<LogicalColumnExpr mdsid="lm6" name="LogicalColumnExpr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["Linked BM"."Fact"."Amount"]]></ExprTextDesc><ObjectRefList><RefObject refId="qm6" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc1"/></ObjectRefList></LogicalColumnExpr>
+<Expr mdsid="em6" name="Expr"><ExprText><![CDATA["%1"]]></ExprText><ExprTextDesc><![CDATA["LK"."F_AGG"."AMOUNT"]]></ExprTextDesc><ObjectRefList><RefObject refId="pm6" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/pt-agg.xml#lpa1"/></ObjectRefList></Expr>
+</ColumnMapping>
+</LogicalTableSource>

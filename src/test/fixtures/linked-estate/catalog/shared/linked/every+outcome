@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saw:report xmlns:saw="com.siebel.analytics.web/report/v1.1" xmlns:sawx="com.siebel.analytics.web/expression/v1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlVersion="201201160">
+<saw:criteria xsi:type="saw:simpleCriteria" subjectArea="&quot;Linked SA&quot;"><saw:columns>
+<saw:column xsi:type="saw:regularColumn" columnID="c0"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Amount"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c1"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"facts"."QUANTITY"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c2"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Margin"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c3"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Missing"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c4"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Amount" * 2</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c5"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">XSA('u'.'d')."Columns"."X"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c6"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">
+   "Facts"."Quantity"  </sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c7"/>
+<saw:column xsi:type="saw:regularColumn" columnID="c8"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Linked SA"."Facts"."Amount"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c9"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Note"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c10"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."region"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c11"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">BIN(XSA('u'.'d')."Columns"."X" BY 1)</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c12"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">xsa('u'.'d')."Columns"."X"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c13"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Unbound"</sawx:expr></saw:columnFormula></saw:column>
+<saw:column xsi:type="saw:regularColumn" columnID="c14"><saw:columnFormula><sawx:expr xsi:type="sawx:sqlExpression">"Facts"."Am""ount"</sawx:expr></saw:columnFormula></saw:column>
+</saw:columns></saw:criteria>
+</saw:report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="llt" name="Fact" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/bm.xml#lbm">
+<LogicalColumn mdsid="llc1" name="Amount"/>
+<LogicalColumn mdsid="llc2" name="Quantity"/>
+<LogicalColumn mdsid="llc3" name="Margin">
+<Expr mdsid="lex3" name="Expr">
+<ExprText><![CDATA["%1" - "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["Linked BM"."Fact"."Amount" - "Linked BM"."Fact"."Quantity"]]></ExprTextDesc>
+<ObjectRefList><RefObject refId="r1" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc1"/><RefObject refId="r2" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/lt.xml#llc2"/></ObjectRefList>
+</Expr>
+</LogicalColumn>
+<LogicalColumn mdsid="llc4" name="Note"/>
+<LogicalColumn mdsid="llc5" name="Region"/>
+<LogicalColumn mdsid="llc6" name="Region Upper"/>
+</LogicalTable>

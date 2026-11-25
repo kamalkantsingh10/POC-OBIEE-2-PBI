@@ -1,0 +1,10 @@
+"row_id","rpd_id","table_id","name","columns"
+"sampleapp::phys::xe.SAMPLESALES.EMPLOYEE.key.EMP_ID","sampleapp","sampleapp::phys::xe.SAMPLESALES.EMPLOYEE","EMP_ID","sampleapp::phys::xe.SAMPLESALES.EMPLOYEE.EMP_ID"
+"sampleapp::phys::xe.SAMPLESALES.EMP_PARENT_CHILD.key.EMP_PARENT_CHILD_Key","sampleapp","sampleapp::phys::xe.SAMPLESALES.EMP_PARENT_CHILD","EMP_PARENT_CHILD_Key","sampleapp::phys::xe.SAMPLESALES.EMP_PARENT_CHILD.MEMBER_KEY"
+"sampleapp::phys::xe.SAMPLESALES.SAMP_OFFICES_D.key.SAMP_OFFICES_D_Key","sampleapp","sampleapp::phys::xe.SAMPLESALES.SAMP_OFFICES_D","SAMP_OFFICES_D_Key","sampleapp::phys::xe.SAMPLESALES.SAMP_OFFICES_D.OFFICE_KEY"
+"sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D.key.SAMP_PRODUCTS_D_Key","sampleapp","sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D","SAMP_PRODUCTS_D_Key","sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D.PROD_KEY"
+"sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D_TRANSLATION.key.PK_PROD_TRANS1","sampleapp","sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D_TRANSLATION","PK_PROD_TRANS1","sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D_TRANSLATION.LANG_ID
+sampleapp::phys::xe.SAMPLESALES.SAMP_PRODUCTS_D_TRANSLATION.PROD_KEY"
+"sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_DAY_D.key.SAMP_TIME_DAY_D_Key","sampleapp","sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_DAY_D","SAMP_TIME_DAY_D_Key","sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_DAY_D.CALENDAR_DATE"
+"sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_MTH_D.key.SAMP_TIME_MTH_D_Key","sampleapp","sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_MTH_D","SAMP_TIME_MTH_D_Key","sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_MTH_D.MTH_KEY"
+"sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_MTH_D.key.SAMP_TIME_MTH_D_Key#1","sampleapp","sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_MTH_D","SAMP_TIME_MTH_D_Key#1","sampleapp::phys::xe.SAMPLESALES.SAMP_TIME_MTH_D.CAL_YEAR"

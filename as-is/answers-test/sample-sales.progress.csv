@@ -1,0 +1,102 @@
+unit_id,status,last_question,note
+_run,start,0,2026-11-23T20:55:33Z
+overview,written,1,
+table-01-fact-revenue-p1,written,2,
+table-01-fact-revenue-p2,written,6,
+table-02-fact-target,written,7,
+table-03-dim-offices,written,7,
+table-04-dim-products,written,8,
+table-05-dim-products-translated,written,8,
+table-06-dim-sales-rep,written,9,
+table-07-dim-time,written,9,
+dbtable-01-employee,written,9,
+dbtable-02-emp-parent-child,written,9,
+dbtable-03-factcrossjoin,written,9,
+dbtable-04-samp-offices-d,written,9,
+dbtable-05-samp-products-d,written,9,
+dbtable-06-samp-products-d-translation,written,9,
+dbtable-07-samp-revenue-a,written,9,
+dbtable-08-samp-revenue-a-mth,written,9,
+dbtable-09-samp-revenue-a-yr,written,9,
+dbtable-10-samp-revenue-f,written,9,
+dbtable-11-samp-targets-f,written,9,
+dbtable-12-samp-time-day-d,written,9,
+dbtable-13-samp-time-mth-d,written,10,
+joins,written,10,
+hierarchies,written,11,
+variables,written,11,
+security,written,12,
+reports,written,12,
+gaps,written,13,
+_document,assembled,13,
+overview,reviewed,13,0 findings
+table-01-fact-revenue-p1,reviewed,13,1 findings
+table-01-fact-revenue-p2,reviewed,13,4 findings
+table-02-fact-target,reviewed,13,1 findings
+table-03-dim-offices,reviewed,13,0 findings
+table-04-dim-products,reviewed,13,1 findings
+table-05-dim-products-translated,reviewed,13,1 findings
+table-06-dim-sales-rep,reviewed,13,0 findings
+table-07-dim-time,reviewed,13,0 findings
+dbtable-01-employee,reviewed,13,0 findings
+dbtable-02-emp-parent-child,reviewed,13,0 findings
+dbtable-03-factcrossjoin,reviewed,13,0 findings
+dbtable-04-samp-offices-d,reviewed,13,0 findings
+dbtable-05-samp-products-d,reviewed,13,0 findings
+dbtable-06-samp-products-d-translation,reviewed,13,0 findings
+dbtable-07-samp-revenue-a,reviewed,13,0 findings
+dbtable-08-samp-revenue-a-mth,reviewed,13,0 findings
+dbtable-09-samp-revenue-a-yr,reviewed,13,0 findings
+dbtable-10-samp-revenue-f,reviewed,13,0 findings
+dbtable-11-samp-targets-f,reviewed,13,0 findings
+dbtable-12-samp-time-day-d,reviewed,13,0 findings
+dbtable-13-samp-time-mth-d,reviewed,13,0 findings
+joins,reviewed,13,1 findings
+hierarchies,reviewed,13,3 findings
+variables,reviewed,13,0 findings
+security,reviewed,13,1 findings
+reports,reviewed,13,0 findings
+gaps,reviewed,13,0 findings
+dbtable-02-emp-parent-child,reviewed,14,1 more findings
+_questions,reviewed,14,
+table-07-dim-time,reviewed,14,1 more findings
+_summary,reviewed,14,
+_document,reviewed,14,2026-11-23
+table-01-fact-revenue-p2,written,16,answer Q4
+table-01-fact-revenue-p2,written,16,answer Q6
+dbtable-13-samp-time-mth-d,written,16,answer Q10
+security,written,16,answer Q12
+dbtable-07-samp-revenue-a,written,16,pointer to answered Q4
+dbtable-10-samp-revenue-f,written,16,pointer to answered Q4
+dbtable-03-factcrossjoin,written,16,pointer to answered Q6
+joins,written,16,pointer to answered Q6 and Q10
+_run,start,16,2026-11-23T20:55:33Z
+overview,written,16,
+table-01-fact-revenue-p1,written,16,
+table-01-fact-revenue-p2,written,16,
+table-02-fact-target,written,16,
+table-03-dim-offices,written,16,
+table-04-dim-products,written,16,
+table-05-dim-products-translated,written,16,
+table-06-dim-sales-rep,written,16,
+table-07-dim-time,written,16,
+dbtable-01-employee,written,16,
+dbtable-02-emp-parent-child,written,16,
+dbtable-03-factcrossjoin,written,16,
+dbtable-04-samp-offices-d,written,16,
+dbtable-05-samp-products-d,written,16,
+dbtable-06-samp-products-d-translation,written,16,
+dbtable-07-samp-revenue-a,written,16,
+dbtable-08-samp-revenue-a-mth,written,16,
+dbtable-09-samp-revenue-a-yr,written,16,
+dbtable-10-samp-revenue-f,written,16,
+dbtable-11-samp-targets-f,written,16,
+dbtable-12-samp-time-day-d,written,16,
+dbtable-13-samp-time-mth-d,written,16,
+joins,written,16,
+hierarchies,written,16,
+variables,written,16,
+security,written,16,
+reports,written,16,
+gaps,written,16,
+_document,assembled,16,

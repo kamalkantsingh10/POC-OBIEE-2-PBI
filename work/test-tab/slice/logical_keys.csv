@@ -1,0 +1,7 @@
+"row_id","rpd_id","logical_table_id","name","is_primary","columns"
+"sampleapp::bmm::SAMPLESALES.Dim Offices.key.SAMP_OFFICES_D_Key","sampleapp","sampleapp::bmm::SAMPLESALES.Dim Offices","SAMP_OFFICES_D_Key","true","sampleapp::bmm::SAMPLESALES.Dim Offices.Office Key"
+"sampleapp::bmm::SAMPLESALES.Dim Products (Translated).key.PK_PROD_TRANS1","sampleapp","sampleapp::bmm::SAMPLESALES.Dim Products (Translated)","PK_PROD_TRANS1","true","sampleapp::bmm::SAMPLESALES.Dim Products (Translated).PROD_KEY
+sampleapp::bmm::SAMPLESALES.Dim Products (Translated).LANG_ID"
+"sampleapp::bmm::SAMPLESALES.Dim Products.key.SAMP_PRODUCTS_D_Key","sampleapp","sampleapp::bmm::SAMPLESALES.Dim Products","SAMP_PRODUCTS_D_Key","true","sampleapp::bmm::SAMPLESALES.Dim Products.Prod Key"
+"sampleapp::bmm::SAMPLESALES.Dim Sales Rep.key.EMP_ID","sampleapp","sampleapp::bmm::SAMPLESALES.Dim Sales Rep","EMP_ID","true","sampleapp::bmm::SAMPLESALES.Dim Sales Rep.Employee ID"
+"sampleapp::bmm::SAMPLESALES.Dim Time.key.SAMP_TIME_DAY_D_Key","sampleapp","sampleapp::bmm::SAMPLESALES.Dim Time","SAMP_TIME_DAY_D_Key","true","sampleapp::bmm::SAMPLESALES.Dim Time.Calendar Date"

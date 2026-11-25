@@ -1,0 +1,7 @@
+"row_id","rpd_id","subject_area_id","name","display_name","aliases"
+"sampleapp::pres::Sample Sales.Dim Offices","sampleapp","sampleapp::pres::Sample Sales","Dim Offices","",""
+"sampleapp::pres::Sample Sales.Dim Products","sampleapp","sampleapp::pres::Sample Sales","Dim Products","",""
+"sampleapp::pres::Sample Sales.Dim Sales Rep","sampleapp","sampleapp::pres::Sample Sales","Dim Sales Rep","",""
+"sampleapp::pres::Sample Sales.Dim Time","sampleapp","sampleapp::pres::Sample Sales","Dim Time","VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time)",""
+"sampleapp::pres::Sample Sales.Fact Revenue","sampleapp","sampleapp::pres::Sample Sales","Fact Revenue","",""
+"sampleapp::pres::Sample Sales.Fact Target","sampleapp","sampleapp::pres::Sample Sales","Fact Target","",""

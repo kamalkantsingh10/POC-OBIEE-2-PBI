@@ -1,0 +1,2 @@
+"row_id","rpd_id","name","business_model","implicit_fact_column_id","is_auto_aggregate","aliases"
+"sampleapp::pres::Sample Sales","sampleapp","Sample Sales","SAMPLESALES","sampleapp::bmm::SAMPLESALES.Fact Target.Revenue","","SAMPLESALES"

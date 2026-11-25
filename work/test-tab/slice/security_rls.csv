@@ -1,0 +1,6 @@
+"row_id","rpd_id","kind","role","subject_id","detail","expr_text","expr_text_desc","expr_refs","role_display_name","role_guid"
+"sampleapp::sec::obj.ObjPriv_1500:18131355661677.o0","sampleapp","object_privilege","","sampleapp::pres::Sample Sales.Fact Target.Revenue","write via sampleapp::sec::pkg.PrivPack_4209:18101355661677","","","","",""
+"sampleapp::sec::obj.ObjPriv_1500:18161355661677.o0","sampleapp","object_privilege","","sampleapp::pres::Sample Sales.Fact Target.Revenue","read via sampleapp::sec::pkg.PrivPack_4209:18141355661677","","","","",""
+"sampleapp::sec::obj.ObjPriv_1500:18201355661677.o0","sampleapp","object_privilege","","sampleapp::pres::Sample Sales.Fact Target.Revenue","read via sampleapp::sec::pkg.PrivPack_4209:18181355661677","","","","",""
+"sampleapp::sec::obj.ObjPriv_1500:18211355661677.o0","sampleapp","object_privilege","","sampleapp::pres::Sample Sales.Fact Target.Revenue","write via sampleapp::sec::pkg.PrivPack_4209:18181355661677","","","","",""
+"sampleapp::sec::pkg.PrivPack_4209:18101355661677.q0","sampleapp","query_privilege","6D7874D30FD9EC2E7C15CF8DD0C61529AF3BDCAD955E5AD1372E6D902B14F0A9 3FA146A018E99435FCE83B3F7BDDBF5A30BAF7BEF918C3AFAA354A94E310F903","QueryPriv_4204:18331355753308","PrivPack_4209:18101355661677","","","","BI Author Role","BIAuthor"

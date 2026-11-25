@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="lsa" name="Linked SA" isAutoAggr="true" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/bm.xml#lbm">
+<RefTables><RefPresentationTable refId="t1" presentationTableRef="/oracle/bi/server/base/PresentationTable/pt.xml#lpt"/></RefTables>
+</PresentationCatalog>

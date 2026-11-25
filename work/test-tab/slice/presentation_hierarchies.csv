@@ -1,0 +1,5 @@
+"row_id","rpd_id","table_id","name","dimension_id","level_count","display_column_id"
+"sampleapp::pres::Sample Sales.Dim Offices.Office Hierarchy","sampleapp","sampleapp::pres::Sample Sales.Dim Offices","Office Hierarchy","sampleapp::bmm::SAMPLESALES.Office Hierarchy","5",""
+"sampleapp::pres::Sample Sales.Dim Products.Products Hierararchy","sampleapp","sampleapp::pres::Sample Sales.Dim Products","Products Hierararchy","sampleapp::bmm::SAMPLESALES.Products Hierararchy","5",""
+"sampleapp::pres::Sample Sales.Dim Sales Rep.Sales Rep Hierarchy","sampleapp","sampleapp::pres::Sample Sales.Dim Sales Rep","Sales Rep Hierarchy","sampleapp::bmm::SAMPLESALES.Sales Rep Hierarchy","0","sampleapp::pres::Sample Sales.Dim Sales Rep.Employee Name"
+"sampleapp::pres::Sample Sales.Dim Time.Time Hierarchy","sampleapp","sampleapp::pres::Sample Sales.Dim Time","Time Hierarchy","sampleapp::bmm::SAMPLESALES.Time Hierarchy","7",""

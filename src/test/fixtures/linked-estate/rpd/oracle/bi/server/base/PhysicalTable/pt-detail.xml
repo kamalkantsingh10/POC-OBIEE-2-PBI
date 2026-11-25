@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="lptd" name="F_DETAIL" type="Table" xmlns="http://www.oracle.com/obis/repository" containerRef="/oracle/bi/server/base/Schema/sch.xml#lsch">
+<PhysicalColumn mdsid="lpd1" name="AMOUNT" dataType="DOUBLE"/>
+<PhysicalColumn mdsid="lpd2" name="QTY" dataType="DOUBLE"/>
+<PhysicalColumn mdsid="lpd3" name="REGION" dataType="VARCHAR"/>
+<PhysicalColumn mdsid="lpd4" name="REGION_UC" dataType="VARCHAR"/>
+</PhysicalTable>

@@ -1,0 +1,8 @@
+"row_id","rpd_id","business_model","name","source_count","is_lookup_table"
+"sampleapp::bmm::SAMPLESALES.Dim Offices","sampleapp","SAMPLESALES","Dim Offices","1",""
+"sampleapp::bmm::SAMPLESALES.Dim Products","sampleapp","SAMPLESALES","Dim Products","1",""
+"sampleapp::bmm::SAMPLESALES.Dim Products (Translated)","sampleapp","SAMPLESALES","Dim Products (Translated)","1","true"
+"sampleapp::bmm::SAMPLESALES.Dim Sales Rep","sampleapp","SAMPLESALES","Dim Sales Rep","1",""
+"sampleapp::bmm::SAMPLESALES.Dim Time","sampleapp","SAMPLESALES","Dim Time","2",""
+"sampleapp::bmm::SAMPLESALES.Fact Revenue","sampleapp","SAMPLESALES","Fact Revenue","5",""
+"sampleapp::bmm::SAMPLESALES.Fact Target","sampleapp","SAMPLESALES","Fact Target","1",""

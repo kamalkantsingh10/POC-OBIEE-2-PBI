@@ -1,0 +1,70 @@
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created, ready for development
+#   - in-progress: Developer actively working on implementation
+#   - review: Implementation complete, ready for review
+#   - done: Story completed
+
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when its first story starts (via build's sprint sync)
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates the next story after the previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; the status view surfaces open ones
+generated: 11-23-2026 00:41
+last_updated: 11-23-2026 01:39
+project: POC-OBIEE-2-PBI
+project_key: NOKEY
+tracking_system: file-system
+story_location: documents/implementation-artifacts
+development_status:
+  epic-1: in-progress
+  1-1-build-the-jar-and-extract-the-physical-layer: done
+  1-2-list-what-was-not-read-and-what-went-wrong: done
+  1-3-extract-the-logical-layer-with-formulas-exactly-as-written: done
+  1-4-extract-the-presentation-layer: done
+  1-5-record-lineage-from-presentation-column-to-database-column: done
+  1-6-extract-joins-hierarchies-variables-and-security-rules: done
+  1-7-extract-dashboards-their-pages-and-what-is-placed-on-them: done
+  1-8-extract-reports-their-columns-and-their-views: done
+  1-9-extract-filters-prompts-and-saved-filters: done
+  1-10-link-report-columns-to-the-repository: done
+  1-11-confirm-the-knowledge-base-matches-the-reference: review
+  epic-1-retrospective: optional
+
+  epic-2: done
+  2-4-review-the-as-is-document-before-it-goes-to-users: done
+  2-1-cut-a-slice-for-a-subject-area: done
+  2-2-describe-today-s-semantic-model-with-the-as-is-skill: done
+  2-3-check-the-as-is-document-is-complete: done
+  epic-2-retrospective: optional
+
+  epic-3: done
+  3-1-turn-the-fsd-into-text-with-anchors: done
+  3-2-propose-matches-with-the-trace-skill: done
+  3-3-check-the-matches: done
+  epic-3-retrospective: optional
+
+  epic-4: done
+  4-1-cut-a-slice-for-a-tab: done
+  4-2-design-the-new-tables-and-views-with-the-to-be-skill: done
+  4-3-design-the-power-bi-model-and-list-the-tab-s-fields: done
+  4-4-take-one-fsd-from-start-to-finish: done
+  epic-4-retrospective: optional

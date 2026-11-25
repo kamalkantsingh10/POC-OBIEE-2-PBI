@@ -1,0 +1,5 @@
+"item_id","decision","row_id","note"
+"K1","confirmed","","agrees with the report"
+"K3","approved","","looks right"
+"K5","confirmed","le::pres::Linked SA.Facts.Notes","the column with the text"
+"K42","rejected","","not on this tab"

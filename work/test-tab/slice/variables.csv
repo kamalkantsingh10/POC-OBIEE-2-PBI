@@ -1,0 +1,2 @@
+"row_id","rpd_id","name","is_session","init_block_id","security_mask","redacted","expr_text","expr_text_desc","expr_refs"
+"sampleapp::var::PREFERRED_CURRENCY","sampleapp","PREFERRED_CURRENCY","true","sampleapp::var::init.initBlockPrefCurrency","2","false","'gc1'","'gc1'",""
