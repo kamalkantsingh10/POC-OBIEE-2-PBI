@@ -2,3 +2,6 @@
 /estates/
 /kb/
 /slices/
+# Test material copied from POC-RPD (its Knowledge Base, sample files, Python source).
+# Kept on the development machine only: it holds values from public sample data that look like credentials.
+/reference/

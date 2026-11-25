@@ -272,8 +272,8 @@ public final class KbCompareReport {
 
         List<Comparison> handMade = new ArrayList<>();
         String python = extract ? findPython() : null;
-        handMade.add(handMade("constructed-pair", Paths.get("reference", "test-corpus", "constructed-cases", "constructed"),
-                Paths.get("reference", "test-corpus", "constructed-cases", "constructed-catalog"), jar, python, extract, out));
+        handMade.add(handMade("constructed-pair", Paths.get("src", "test", "fixtures", "constructed-cases", "constructed"),
+                Paths.get("src", "test", "fixtures", "constructed-cases", "constructed-catalog"), jar, python, extract, out));
         handMade.add(handMade("linked-estate", Paths.get("src", "test", "fixtures", "linked-estate", "rpd"),
                 Paths.get("src", "test", "fixtures", "linked-estate", "catalog"), jar, python, extract, out));
 
@@ -724,7 +724,7 @@ public final class KbCompareReport {
                 .append("folder under `build/compare-all/in/`, runs the jar on it, runs the reference implementation ")
                 .append("(the Python program in `reference/python-extractor/`) on the same folder, and compares the ")
                 .append("two outputs in the same way as above.\n\n");
-        md.append("- `constructed-pair`: the first attempt's pair, `reference/test-corpus/constructed-cases/` ")
+        md.append("- `constructed-pair`: the first attempt's pair, `src/test/fixtures/constructed-cases/` ")
                 .append("(`constructed/` is the repository, `constructed-catalog/` the catalog).\n");
         md.append("- `linked-estate`: `src/test/fixtures/linked-estate/`, written in story 1.10 so that every value of ")
                 .append("`resolution` and `source_state` occurs, and so that difference 22 occurs.\n\n");

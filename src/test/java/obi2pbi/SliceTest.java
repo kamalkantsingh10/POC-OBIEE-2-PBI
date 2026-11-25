@@ -615,6 +615,9 @@ public final class SliceTest {
                 continue;
             }
             Path reference = TestSupport.root().resolve("reference/analysis/sample-sales");
+            if (!Files.isDirectory(reference)) {
+                continue;
+            }
             KbData slice = SliceFixture.read(work.resolve("slices/sample-sales"));
             int compared = 0;
             for (String file : TestSupport.fileNames(reference)) {

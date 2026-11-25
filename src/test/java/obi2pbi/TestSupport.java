@@ -56,12 +56,12 @@ public final class TestSupport {
 
     /** The second hand-made repository: a bare repository tree. */
     public static Path constructed() {
-        return root().resolve("reference/test-corpus/constructed-cases/constructed");
+        return root().resolve("src/test/fixtures/constructed-cases/constructed");
     }
 
     /** The hand-made catalog: one dashboard, one page, one report, one saved filter. A bare catalog tree. */
     public static Path constructedCatalog() {
-        return root().resolve("reference/test-corpus/constructed-cases/constructed-catalog");
+        return root().resolve("src/test/fixtures/constructed-cases/constructed-catalog");
     }
 
     /** Writes one catalog file into an estate: {@code <estate>/catalog/<path as on disk>}. */
